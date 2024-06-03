@@ -1,0 +1,15 @@
+{
+	"image":"mcr.microsoft.com/vscode/devcontainers/python",
+	"customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/poetry:2": {},
+		"ghcr.io/devcontainers-contrib/features/vercel-cli:1": {}
+	}
+}
