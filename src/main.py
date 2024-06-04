@@ -21,7 +21,7 @@ def generate_qr_code(url):
     return img
 
 # Flask route to serve the QR code
-@app.route('/qrcode')
+@app.route('/swfhc')
 def serve_qr_code():
     url = "https://www.swfhc.org"  # Replace with your URL
     img = generate_qr_code(url)
